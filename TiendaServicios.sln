@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Autor", "TiendaServicios.Api.Autor\TiendaServicios.Api.Autor.csproj", "{3682CB95-0EF1-429E-B423-6332CFD91C2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Libro", "TiendaServicios.Api.Libro\TiendaServicios.Api.Libro.csproj", "{214A918B-31EC-4120-8374-C55C59571E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.CarritoCompra", "TiendaServicios.Api.CarritoCompra\TiendaServicios.Api.CarritoCompra.csproj", "{96777D50-34D0-41E1-8922-3DE99708970E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Libro.Tests", "TiendaServicios.Api.Libro.Tests\TiendaServicios.Api.Libro.Tests.csproj", "{1055D7CC-BA21-4E46-87FB-5872DCA2E7C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{3682CB95-0EF1-429E-B423-6332CFD91C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3682CB95-0EF1-429E-B423-6332CFD91C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3682CB95-0EF1-429E-B423-6332CFD91C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214A918B-31EC-4120-8374-C55C59571E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214A918B-31EC-4120-8374-C55C59571E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214A918B-31EC-4120-8374-C55C59571E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214A918B-31EC-4120-8374-C55C59571E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96777D50-34D0-41E1-8922-3DE99708970E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96777D50-34D0-41E1-8922-3DE99708970E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96777D50-34D0-41E1-8922-3DE99708970E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96777D50-34D0-41E1-8922-3DE99708970E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1055D7CC-BA21-4E46-87FB-5872DCA2E7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1055D7CC-BA21-4E46-87FB-5872DCA2E7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1055D7CC-BA21-4E46-87FB-5872DCA2E7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1055D7CC-BA21-4E46-87FB-5872DCA2E7C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
