@@ -109,6 +109,7 @@ namespace TiendaServicios.Api.Libro.Tests
         public async void GuardarLibro()
         {
             // creamos una base en memoria para no usar la base principal
+            // cambio detexto para azure
             var options = new DbContextOptionsBuilder<ContextoLibreria>()
                             .UseInMemoryDatabase(databaseName: "BaseDatosLibro")
                             .Options;
